@@ -1,2 +1,7 @@
 
 *.xml
+*.xml
+*.dll
+*.pdb
+*.json
+*.cache
