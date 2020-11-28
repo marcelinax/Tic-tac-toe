@@ -6,11 +6,10 @@ namespace Tic_tac_toe
     {
         static void Main(string[] args)
         {
-            var b = new Board();
-            b.Draw();
-            var p = new Player(new Mark('X'));
-            p.IndtroduceYourself();
-            p.Move(b);
+            var board = new Board();
+            var player1 = new Player(new Mark('X'));
+            var player2 = new Player(new Mark('O'));
+            var gra = new Game(new Player(new Mark('X')), new Player(new Mark('O')));
             
         }
     }

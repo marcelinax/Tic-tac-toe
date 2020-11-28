@@ -4,18 +4,18 @@ namespace Tic_tac_toe
 {
     public class Mark
     {
+        private readonly char _charRepresentation;
         public Mark(char mark)
         {
             if(mark == 'X' || mark == 'O')
-                charRepresentation = mark;
+                _charRepresentation = mark;
             else throw new ArgumentException("Incorrect sign!");
         }
 
         public override string ToString()
         {
-            return charRepresentation.ToString();
+            return _charRepresentation.ToString();
         }
 
-        private readonly char charRepresentation;
     }
 }
