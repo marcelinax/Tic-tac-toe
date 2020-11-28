@@ -5,43 +5,55 @@ namespace Tic_tac_toe
     public class Game
     {
         Board board = new Board();
-        public Game(Player player1, Player player2)
-        {
-            activePlayer = player1;
-            otherPlayer = player2;
-        }
-
         private Player activePlayer;
         private Player otherPlayer;
+        private bool gameOnGoing = true;
+        public Game(Player playerOne, Player playerTwo)
+        {
+            activePlayer = playerOne;
+            otherPlayer = playerTwo;
+        }
+
+        void Start()
+        {
+            activePlayer.IndtroduceYourself();
+            otherPlayer.IndtroduceYourself();
+            do
+            {
+                // Start the game
+                
+            } while (gameOnGoing);
+        }
 
         public void ChangePlayer()
         {
-            Player tempPlayer = activePlayer;
+            var tempPlayer = activePlayer;
             activePlayer = otherPlayer;
             otherPlayer = tempPlayer;
         }
 
         private Player CheckPlayerByMark(char sign)
         {
-            if (activePlayer.mark.ToString().Equals(sign.ToString()))
-            {
-                return activePlayer;
-            }
-
-            return otherPlayer;
+            return activePlayer.mark.ToString().Equals(sign.ToString()) ? activePlayer : otherPlayer;
         }
         public void CheckWinner()
         {
             switch (board.CheckForWin())
             {
                 case 'X' :
-                    Console.WriteLine($"{CheckPlayerByMark('X')} is the winner!"); 
+                    Console.WriteLine($"{CheckPlayerByMark('X')} is the winner!");
+                    gameOnGoing = false;
                     break;
                 case 'O':
                     Console.WriteLine($"{CheckPlayerByMark('O')} is the winner!");
+                    gameOnGoing = false;
                     break;
                 case ' ':
                     Console.WriteLine("Draw!");
+                    gameOnGoing = false;
+                    break;
+                default:
+                    gameOnGoing = true;
                     break;
             }
         }

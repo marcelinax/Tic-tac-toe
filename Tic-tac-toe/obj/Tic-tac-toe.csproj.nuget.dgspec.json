@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Studia\\wzorce\\Tic-tac-toe temp\\Tic-tac-toe\\Tic-tac-toe\\Tic-tac-toe.csproj": {}
+    "D:\\Projekty\\Tic-tac-toe\\Tic-tac-toe\\Tic-tac-toe.csproj": {}
   },
   "projects": {
-    "D:\\Studia\\wzorce\\Tic-tac-toe temp\\Tic-tac-toe\\Tic-tac-toe\\Tic-tac-toe.csproj": {
+    "D:\\Projekty\\Tic-tac-toe\\Tic-tac-toe\\Tic-tac-toe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Studia\\wzorce\\Tic-tac-toe temp\\Tic-tac-toe\\Tic-tac-toe\\Tic-tac-toe.csproj",
+        "projectUniqueName": "D:\\Projekty\\Tic-tac-toe\\Tic-tac-toe\\Tic-tac-toe.csproj",
         "projectName": "Tic-tac-toe",
-        "projectPath": "D:\\Studia\\wzorce\\Tic-tac-toe temp\\Tic-tac-toe\\Tic-tac-toe\\Tic-tac-toe.csproj",
-        "packagesPath": "C:\\Users\\Marcelina\\.nuget\\packages\\",
-        "outputPath": "D:\\Studia\\wzorce\\Tic-tac-toe temp\\Tic-tac-toe\\Tic-tac-toe\\obj\\",
+        "projectPath": "D:\\Projekty\\Tic-tac-toe\\Tic-tac-toe\\Tic-tac-toe.csproj",
+        "packagesPath": "C:\\Users\\mySea\\.nuget\\packages\\",
+        "outputPath": "D:\\Projekty\\Tic-tac-toe\\Tic-tac-toe\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Marcelina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mySea\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

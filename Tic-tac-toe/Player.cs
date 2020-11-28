@@ -19,7 +19,6 @@ namespace Tic_tac_toe
             get => nickName;
             set
             {
-                //if (value.ElementAt(0).Equals(value.ElementAt(0).ToString().ToUpper()))
                 if (value.ElementAt(0).Equals(char.ToUpper(value.ElementAt(0))))
                 {
                     nickName = value;
@@ -36,10 +35,14 @@ namespace Tic_tac_toe
         public void Move(Board board)
         {
             Console.WriteLine("Enter the field: (1-9)");
-            short _position = Convert.ToInt16(Console.ReadLine());
+            var position = Convert.ToInt16(Console.ReadLine());
+
+            if (board.cell[position - 1] != 'X' && board.cell[position - 1] != 'O')
+            {
+                board.cell[(position - 1)] = Convert.ToChar(mark.ToString());
+                board.Draw();
+            } else throw new ArgumentException("Position already taken!");
             
-            board.cell[(_position - 1)] = Convert.ToChar(mark.ToString());
-            board.Draw();
         }
 
         public void IndtroduceYourself()
