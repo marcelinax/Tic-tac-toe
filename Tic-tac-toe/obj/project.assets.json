@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\mySea\\.nuget\\packages\\": {}
+    "C:\\Users\\Marcelina\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projekty\\Tic-tac-toe\\Tic-tac-toe\\Tic-tac-toe.csproj",
+      "projectUniqueName": "D:\\Studia\\wzorce\\Tic-tac-toe\\Tic-tac-toe\\Tic-tac-toe.csproj",
       "projectName": "Tic-tac-toe",
-      "projectPath": "D:\\Projekty\\Tic-tac-toe\\Tic-tac-toe\\Tic-tac-toe.csproj",
-      "packagesPath": "C:\\Users\\mySea\\.nuget\\packages\\",
-      "outputPath": "D:\\Projekty\\Tic-tac-toe\\Tic-tac-toe\\obj\\",
+      "projectPath": "D:\\Studia\\wzorce\\Tic-tac-toe\\Tic-tac-toe\\Tic-tac-toe.csproj",
+      "packagesPath": "C:\\Users\\Marcelina\\.nuget\\packages\\",
+      "outputPath": "D:\\Studia\\wzorce\\Tic-tac-toe\\Tic-tac-toe\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mySea\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Marcelina\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

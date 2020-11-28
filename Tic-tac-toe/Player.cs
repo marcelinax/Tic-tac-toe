@@ -6,9 +6,9 @@ namespace Tic_tac_toe
 {
     public class Player
     {
-        public Player(Mark m)
+        public Player(Mark playerMark)
         {
-            mark = m;
+            mark = playerMark;
         }
         
         private Mark mark;
