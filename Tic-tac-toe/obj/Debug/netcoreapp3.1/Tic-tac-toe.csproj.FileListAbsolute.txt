@@ -11,3 +11,16 @@ D:\Projekty\Tic-tac-toe\Tic-tac-toe\obj\Debug\netcoreapp3.1\Tic-tac-toe.csproj.C
 D:\Projekty\Tic-tac-toe\Tic-tac-toe\obj\Debug\netcoreapp3.1\Tic-tac-toe.dll
 D:\Projekty\Tic-tac-toe\Tic-tac-toe\obj\Debug\netcoreapp3.1\Tic-tac-toe.pdb
 D:\Projekty\Tic-tac-toe\Tic-tac-toe\obj\Debug\netcoreapp3.1\Tic-tac-toe.genruntimeconfig.cache
+D:\Studia\wzorce\Tic-tac-toe temp\Tic-tac-toe\Tic-tac-toe\bin\Debug\netcoreapp3.1\Tic-tac-toe.exe
+D:\Studia\wzorce\Tic-tac-toe temp\Tic-tac-toe\Tic-tac-toe\bin\Debug\netcoreapp3.1\Tic-tac-toe.deps.json
+D:\Studia\wzorce\Tic-tac-toe temp\Tic-tac-toe\Tic-tac-toe\bin\Debug\netcoreapp3.1\Tic-tac-toe.runtimeconfig.json
+D:\Studia\wzorce\Tic-tac-toe temp\Tic-tac-toe\Tic-tac-toe\bin\Debug\netcoreapp3.1\Tic-tac-toe.runtimeconfig.dev.json
+D:\Studia\wzorce\Tic-tac-toe temp\Tic-tac-toe\Tic-tac-toe\bin\Debug\netcoreapp3.1\Tic-tac-toe.dll
+D:\Studia\wzorce\Tic-tac-toe temp\Tic-tac-toe\Tic-tac-toe\bin\Debug\netcoreapp3.1\Tic-tac-toe.pdb
+D:\Studia\wzorce\Tic-tac-toe temp\Tic-tac-toe\Tic-tac-toe\obj\Debug\netcoreapp3.1\Tic-tac-toe.csprojAssemblyReference.cache
+D:\Studia\wzorce\Tic-tac-toe temp\Tic-tac-toe\Tic-tac-toe\obj\Debug\netcoreapp3.1\Tic-tac-toe.AssemblyInfoInputs.cache
+D:\Studia\wzorce\Tic-tac-toe temp\Tic-tac-toe\Tic-tac-toe\obj\Debug\netcoreapp3.1\Tic-tac-toe.AssemblyInfo.cs
+D:\Studia\wzorce\Tic-tac-toe temp\Tic-tac-toe\Tic-tac-toe\obj\Debug\netcoreapp3.1\Tic-tac-toe.csproj.CoreCompileInputs.cache
+D:\Studia\wzorce\Tic-tac-toe temp\Tic-tac-toe\Tic-tac-toe\obj\Debug\netcoreapp3.1\Tic-tac-toe.dll
+D:\Studia\wzorce\Tic-tac-toe temp\Tic-tac-toe\Tic-tac-toe\obj\Debug\netcoreapp3.1\Tic-tac-toe.pdb
+D:\Studia\wzorce\Tic-tac-toe temp\Tic-tac-toe\Tic-tac-toe\obj\Debug\netcoreapp3.1\Tic-tac-toe.genruntimeconfig.cache

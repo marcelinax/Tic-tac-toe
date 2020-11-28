@@ -5,7 +5,7 @@ namespace Tic_tac_toe
 {
     public class Board
     {
-        private char[] cell =
+        public char[] cell =
         {
             '1', '2', '3', '4', '5', '6', '7','8','9'
         };

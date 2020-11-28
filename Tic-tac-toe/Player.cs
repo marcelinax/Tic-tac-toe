@@ -13,7 +13,7 @@ namespace Tic_tac_toe
         
         public Mark mark;
         private string nickName;
-
+      
         public string NickName
         {
             get { return nickName; }
@@ -37,6 +37,8 @@ namespace Tic_tac_toe
             Console.WriteLine("Enter the field: (1-9)");
             short _position = Convert.ToInt16(Console.ReadLine());
             
+            board.cell[(_position - 1)] = Convert.ToChar(mark.ToString());
+            board.Draw();
         }
 
         public void IndtroduceYourself()
