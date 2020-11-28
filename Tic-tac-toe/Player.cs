@@ -34,7 +34,12 @@ namespace Tic_tac_toe
 
         public void Move(Board board)
         {
+            Console.WriteLine("Podaj pozycje: (1-9)");
+            short position = Convert.ToInt16(Console.ReadLine());
             
+            Console.WriteLine(position);
+            
+            //cell[_position-1] = mark;
         }
 
         public void IndtroduceYourself()
