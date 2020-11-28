@@ -12,16 +12,19 @@ namespace Tic_tac_toe
         {
             activePlayer = playerOne;
             otherPlayer = playerTwo;
+            Start();
         }
 
-        void Start()
+        private void Start()
         {
             activePlayer.IndtroduceYourself();
             otherPlayer.IndtroduceYourself();
             do
             {
-                // Start the game
-                
+                activePlayer.Move(board);
+                CheckWinner();
+                ChangePlayer();
+
             } while (gameOnGoing);
         }
 
