@@ -5,11 +5,10 @@ namespace Tic_tac_toe
 {
     public class Board
     {
-        private char[] cell =
+        public char[] cell =
         {
             '1', '2', '3', '4', '5', '6', '7','8','9'
         };
-
 
         public Board()
         {
@@ -42,8 +41,8 @@ namespace Tic_tac_toe
 
         private bool CheckDiagonally(char playa)
         {
-            if (cell[0] == playa || cell[4] == playa || cell[8] == playa) return true;
-            if (cell[2] == playa || cell[4] == playa || cell[6] == playa) return true;
+            if (cell[0] == playa && cell[4] == playa && cell[8] == playa) return true;
+            if (cell[2] == playa && cell[4] == playa && cell[6] == playa) return true;
             return false;
         }
 

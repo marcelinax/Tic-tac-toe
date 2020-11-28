@@ -15,13 +15,13 @@ namespace Tic_tac_toe
 
         private Mark mark;
         private string nickName;
-
+      
         public string NickName
         {
-            get { return nickName; }
+            get => nickName;
             set
             {
-                if (value.ElementAt(0).Equals(value.ElementAt(0).ToString().ToUpper()))
+                if (value.ElementAt(0).Equals(char.ToUpper(value.ElementAt(0))))
                 {
                     nickName = value;
                 }
@@ -36,14 +36,23 @@ namespace Tic_tac_toe
 
         public void Move(Board board)
         {
+            Console.WriteLine("Enter the field: (1-9)");
+            var position = Convert.ToInt16(Console.ReadLine());
+
+            if (board.cell[position - 1] != 'X' && board.cell[position - 1] != 'O')
+            {
+                board.cell[(position - 1)] = Convert.ToChar(mark.ToString());
+                Console.Clear();
+                board.Draw();
+            } else throw new ArgumentException("Position already taken!");
             
         }
 
         public void IndtroduceYourself()
         {
             Console.WriteLine("What's your name?");
-            nickName = Console.ReadLine();
-            Console.WriteLine($"Hello {nickName}! Nice to meet you!");
+            NickName = Console.ReadLine();
+            Console.WriteLine($"Hello {NickName}! Nice to meet you!");
         }
     }
 }

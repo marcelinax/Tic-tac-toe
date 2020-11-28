@@ -1,0 +1,14 @@
+
+*.xml
+*.xml
+*.dll
+*.pdb
+*.json
+*.cache
+*.xml
+*.xml
+*.dll
+*.pdb
+*.props
+.idea
+.vs
