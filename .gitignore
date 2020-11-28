@@ -10,3 +10,5 @@
 *.dll
 *.pdb
 *.props
+.idea
+.vs
