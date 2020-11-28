@@ -10,6 +10,7 @@ namespace Tic_tac_toe
             b.Draw();
             var p = new Player(new Mark('X'));
             p.Move(b);
+            
         }
     }
 }
