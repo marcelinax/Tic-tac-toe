@@ -10,8 +10,10 @@ namespace Tic_tac_toe
         {
             mark = playerMark;
         }
-        
-        public Mark mark;
+
+        public Mark Mark { get { return mark; } }
+
+        private Mark mark;
         private string nickName;
 
         public string NickName

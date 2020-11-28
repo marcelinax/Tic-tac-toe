@@ -7,7 +7,11 @@ namespace Tic_tac_toe
         Board board = new Board();
         public Game(Player player1, Player player2)
         {
-           
+           if (player1.Mark.Equals(player2.Mark))
+            {
+                throw new ArgumentException("nunu");
+            }
+
         }
 
         private Player activePlayer;
@@ -22,7 +26,7 @@ namespace Tic_tac_toe
 
         private Player CheckPlayerByMark(char sign)
         {
-            if (activePlayer.mark.ToString().Equals(sign.ToString()))
+            if (activePlayer.ToString().Equals(sign.ToString()))
             {
                 return activePlayer;
             }

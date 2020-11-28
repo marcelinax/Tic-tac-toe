@@ -17,5 +17,19 @@ namespace Tic_tac_toe
         }
 
         private readonly char charRepresentation;
+
+        public override bool Equals(object obj)
+        {
+            var mark = obj as Mark;
+            if (mark == null) return false;
+            return this.charRepresentation.Equals(mark.charRepresentation);
+        }
+
+        public override int GetHashCode()
+        {
+            return this.charRepresentation.GetHashCode();
+        }
+
+
     }
 }
