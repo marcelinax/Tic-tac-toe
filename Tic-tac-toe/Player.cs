@@ -34,6 +34,8 @@ namespace Tic_tac_toe
 
         public void Move(Board board)
         {
+            Console.WriteLine("Enter the field: (1-9)");
+            short _position = Convert.ToInt16(Console.ReadLine());
             
         }
 

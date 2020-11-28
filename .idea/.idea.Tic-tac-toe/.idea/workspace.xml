@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfa08591-e50b-4a90-a6e4-3e753cd6250f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tic-tac-toe/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tic-tac-toe/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tic-tac-toe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tic-tac-toe/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tic-tac-toe/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-tac-toe/Game.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tic-tac-toe/Mark.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-tac-toe/Mark.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tic-tac-toe/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-tac-toe/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tic-tac-toe/obj/Debug/netcoreapp3.1/Tic-tac-toe.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-tac-toe/obj/Debug/netcoreapp3.1/Tic-tac-toe.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tic-tac-toe/obj/Debug/netcoreapp3.1/Tic-tac-toe.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-tac-toe/obj/Debug/netcoreapp3.1/Tic-tac-toe.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tic-tac-toe/obj/Tic-tac-toe.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-tac-toe/obj/Tic-tac-toe.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tic-tac-toe/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-tac-toe/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tic-tac-toe/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-tac-toe/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tic-tac-toe/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-tac-toe/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tic-tac-toe/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-tac-toe/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +69,8 @@
       <workItem from="1606518438520" duration="4062000" />
       <workItem from="1606522549397" duration="165000" />
       <workItem from="1606522957962" duration="233000" />
-      <workItem from="1606523207666" duration="3306000" />
+      <workItem from="1606523207666" duration="3456000" />
+      <workItem from="1606572219610" duration="4152000" />
     </task>
     <servers />
   </component>
