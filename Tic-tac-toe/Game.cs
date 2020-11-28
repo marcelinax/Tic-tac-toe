@@ -19,11 +19,21 @@ namespace Tic_tac_toe
         {
             activePlayer.IndtroduceYourself();
             otherPlayer.IndtroduceYourself();
+            int moves = 1;
             do
             {
                 activePlayer.Move(board);
-                CheckWinner();
-                ChangePlayer();
+                moves++;
+                if (moves < 9)
+                {
+                    CheckWinner();
+                    ChangePlayer();
+                }
+                else
+                {
+                    Console.WriteLine("Draw!");
+                    gameOnGoing = false;
+                }
 
             } while (gameOnGoing);
         }
@@ -52,8 +62,7 @@ namespace Tic_tac_toe
                     gameOnGoing = false;
                     break;
                 case ' ':
-                    Console.WriteLine("Draw!");
-                    gameOnGoing = false;
+                    gameOnGoing = true;
                     break;
                 default:
                     gameOnGoing = true;

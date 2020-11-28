@@ -40,6 +40,7 @@ namespace Tic_tac_toe
             if (board.cell[position - 1] != 'X' && board.cell[position - 1] != 'O')
             {
                 board.cell[(position - 1)] = Convert.ToChar(mark.ToString());
+                Console.Clear();
                 board.Draw();
             } else throw new ArgumentException("Position already taken!");
             

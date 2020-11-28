@@ -41,8 +41,8 @@ namespace Tic_tac_toe
 
         private bool CheckDiagonally(char playa)
         {
-            if (cell[0] == playa || cell[4] == playa || cell[8] == playa) return true;
-            if (cell[2] == playa || cell[4] == playa || cell[6] == playa) return true;
+            if (cell[0] == playa && cell[4] == playa && cell[8] == playa) return true;
+            if (cell[2] == playa && cell[4] == playa && cell[6] == playa) return true;
             return false;
         }
 
