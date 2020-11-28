@@ -9,6 +9,7 @@ namespace Tic_tac_toe
             var b = new Board();
             b.Draw();
             var p = new Player(new Mark('X'));
+            p.IndtroduceYourself();
             p.Move(b);
             
         }

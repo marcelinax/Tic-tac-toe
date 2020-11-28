@@ -16,10 +16,11 @@ namespace Tic_tac_toe
       
         public string NickName
         {
-            get { return nickName; }
+            get => nickName;
             set
             {
-                if (value.ElementAt(0).Equals(value.ElementAt(0).ToString().ToUpper()))
+                //if (value.ElementAt(0).Equals(value.ElementAt(0).ToString().ToUpper()))
+                if (value.ElementAt(0).Equals(char.ToUpper(value.ElementAt(0))))
                 {
                     nickName = value;
                 }
@@ -44,8 +45,8 @@ namespace Tic_tac_toe
         public void IndtroduceYourself()
         {
             Console.WriteLine("What's your name?");
-            nickName = Console.ReadLine();
-            Console.WriteLine($"Hello {nickName}! Nice to meet you!");
+            NickName = Console.ReadLine();
+            Console.WriteLine($"Hello {NickName}! Nice to meet you!");
         }
     }
 }
