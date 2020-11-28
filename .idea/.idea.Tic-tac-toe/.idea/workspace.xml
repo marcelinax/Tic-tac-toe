@@ -5,18 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfa08591-e50b-4a90-a6e4-3e753cd6250f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tic-tac-toe/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tic-tac-toe/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tic-tac-toe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tic-tac-toe/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tic-tac-toe/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-tac-toe/Game.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tic-tac-toe/Mark.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-tac-toe/Mark.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tic-tac-toe/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-tac-toe/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tic-tac-toe/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-tac-toe/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tic-tac-toe/bin/Debug/netcoreapp3.1/Tic-tac-toe.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-tac-toe/bin/Debug/netcoreapp3.1/Tic-tac-toe.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tic-tac-toe/bin/Debug/netcoreapp3.1/Tic-tac-toe.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-tac-toe/bin/Debug/netcoreapp3.1/Tic-tac-toe.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tic-tac-toe/bin/Debug/netcoreapp3.1/Tic-tac-toe.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-tac-toe/bin/Debug/netcoreapp3.1/Tic-tac-toe.runtimeconfig.dev.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tic-tac-toe/obj/Debug/netcoreapp3.1/Tic-tac-toe.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-tac-toe/obj/Debug/netcoreapp3.1/Tic-tac-toe.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tic-tac-toe/obj/Debug/netcoreapp3.1/Tic-tac-toe.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-tac-toe/obj/Debug/netcoreapp3.1/Tic-tac-toe.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tic-tac-toe/obj/Debug/netcoreapp3.1/Tic-tac-toe.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-tac-toe/obj/Debug/netcoreapp3.1/Tic-tac-toe.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tic-tac-toe/obj/Tic-tac-toe.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-tac-toe/obj/Tic-tac-toe.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tic-tac-toe/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-tac-toe/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tic-tac-toe/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-tac-toe/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tic-tac-toe/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-tac-toe/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tic-tac-toe/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-tac-toe/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tic-tac-toe/obj/Debug/netcoreapp3.1/Tic-tac-toe.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-tac-toe/obj/Debug/netcoreapp3.1/Tic-tac-toe.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tic-tac-toe/obj/Debug/netcoreapp3.1/Tic-tac-toe.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-tac-toe/obj/Debug/netcoreapp3.1/Tic-tac-toe.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,11 +28,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Tic-tac-toe/Mark.cs" />
+        <option value="$PROJECT_DIR$/Tic-tac-toe/Game.cs" />
         <option value="$PROJECT_DIR$/Tic-tac-toe/Program.cs" />
         <option value="$PROJECT_DIR$/Tic-tac-toe/Board.cs" />
-        <option value="$PROJECT_DIR$/Tic-tac-toe/Mark.cs" />
         <option value="$PROJECT_DIR$/Tic-tac-toe/Player.cs" />
-        <option value="$PROJECT_DIR$/Tic-tac-toe/Game.cs" />
       </list>
     </option>
   </component>
@@ -90,5 +89,23 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1876" height="530" key="GridCell.Tab.0.bottom" timestamp="1606576259572">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="530" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1606576259572" />
+    <state width="1876" height="530" key="GridCell.Tab.0.center" timestamp="1606576259572">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="530" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1606576259572" />
+    <state width="1876" height="530" key="GridCell.Tab.0.left" timestamp="1606576259572">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="530" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1606576259572" />
+    <state width="1876" height="530" key="GridCell.Tab.0.right" timestamp="1606576259572">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="530" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1606576259572" />
   </component>
 </project>
