@@ -4,26 +4,26 @@ using Microsoft.VisualBasic.FileIO;
 
 namespace Tic_tac_toe
 {
-    public class Player
+    public class Player : IPlayer
     {
-        public Player(Mark playerMark)
+
+        public Player(Mark playerMark, string name)
         {
             mark = playerMark;
+            nickName = name;
         }
-        
-        public Mark mark;
+
+        public Mark Mark { get { return mark; } }
+
+        private Mark mark;
         private string nickName;
-      
+
         public string NickName
         {
             get => nickName;
             set
             {
-                if (value.ElementAt(0).Equals(char.ToUpper(value.ElementAt(0))))
-                {
-                    nickName = value;
-                }
-                else throw new ArgumentException("Name must start with a capital letter!");
+                nickName = value;
             }
         }
 
@@ -42,15 +42,42 @@ namespace Tic_tac_toe
                 board.cell[(position - 1)] = Convert.ToChar(mark.ToString());
                 Console.Clear();
                 board.Draw();
-            } else throw new ArgumentException("Position already taken!");
-            
+            }
+            else throw new ArgumentException("Position already taken!");
+
         }
 
-        public void IndtroduceYourself()
+
+    }
+
+    public class SafePlayer : IPlayer
+    {
+        IPlayer innerPlayer;
+
+        public Mark Mark { get { return innerPlayer.Mark; } }
+        public SafePlayer(IPlayer playerArgument)
         {
-            Console.WriteLine("What's your name?");
-            NickName = Console.ReadLine();
-            Console.WriteLine($"Hello {NickName}! Nice to meet you!");
+            innerPlayer = playerArgument;
+
+        }
+
+        public void Move(Board board)
+        {
+            try
+            {
+                innerPlayer.Move(board);
+            }
+            catch (Exception e)
+            {
+
+                Console.WriteLine(e.Message);
+                Console.WriteLine("Try Again!");
+                Move(board);
+            }
+        }
+        public override string ToString()
+        {
+            return innerPlayer.ToString();
         }
     }
 }

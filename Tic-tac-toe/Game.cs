@@ -2,14 +2,55 @@
 
 namespace Tic_tac_toe
 {
+
+    public class GameBuilder
+    {
+        private IPlayer player1;
+        private IPlayer player2;
+
+        public void SetUpPlayer1()
+        {
+            player1 = BuildPlayer('X');
+
+        }
+        public void SetUpPlayer2()
+        {
+            player2 = BuildPlayer('O');
+        }
+
+        private IPlayer BuildPlayer(char c)
+        {
+
+            Console.WriteLine($"Player {c}, what's your name?");
+            var name = Console.ReadLine();
+            Console.WriteLine($"Hello {name}! Nice to meet you!");
+
+            var newPlayer = new Player(new Mark(c), name);
+            SafePlayer safePlayer = new SafePlayer(newPlayer);
+
+            return safePlayer;
+        }
+
+        public Game Build()
+        {
+
+            return new Game(player1, player2);
+        }
+    }
+
     public class Game
     {
         Board board = new Board();
-        private Player activePlayer;
-        private Player otherPlayer;
+        private IPlayer activePlayer;
+        private IPlayer otherPlayer;
         private bool gameOnGoing = true;
-        public Game(Player playerOne, Player playerTwo)
+        public Game(IPlayer playerOne, IPlayer playerTwo)
         {
+            if (playerOne.Mark.Equals(playerTwo.Mark))
+            {
+                throw new ArgumentException("nunu");
+            }
+
             activePlayer = playerOne;
             otherPlayer = playerTwo;
             Start();
@@ -17,9 +58,9 @@ namespace Tic_tac_toe
 
         private void Start()
         {
-            activePlayer.IndtroduceYourself();
-            otherPlayer.IndtroduceYourself();
+
             int moves = 1;
+            board.Draw();
             do
             {
                 activePlayer.Move(board);
@@ -45,15 +86,15 @@ namespace Tic_tac_toe
             otherPlayer = tempPlayer;
         }
 
-        private Player CheckPlayerByMark(char sign)
+        private IPlayer CheckPlayerByMark(char sign)
         {
-            return activePlayer.mark.ToString().Equals(sign.ToString()) ? activePlayer : otherPlayer;
+            return activePlayer.Mark.ToString().Equals(sign.ToString()) ? activePlayer : otherPlayer;
         }
         public void CheckWinner()
         {
             switch (board.CheckForWin())
             {
-                case 'X' :
+                case 'X':
                     Console.WriteLine($"{CheckPlayerByMark('X')} is the winner!");
                     gameOnGoing = false;
                     break;
@@ -70,4 +111,4 @@ namespace Tic_tac_toe
             }
         }
     }
-} 
+}
