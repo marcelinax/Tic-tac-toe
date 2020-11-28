@@ -5,13 +5,11 @@ namespace Tic_tac_toe
 {
     public class Board
     {
-        private const int boardSize = 3;
         private char[] cell =
         {
             '1', '2', '3', '4', '5', '6', '7','8','9'
         };
 
-        public char mareczek { get; set; }
 
         public Board()
         {
@@ -35,18 +33,18 @@ namespace Tic_tac_toe
             Console.WriteLine("-------------------------------");
         }
 
-        public void CheckForWin()
+        public char CheckForWin()
         {
-            CheckColumns(mareczek);
-            CheckRows(mareczek);
-            CheckDiagonally(mareczek);
+            if (CheckColumns('X') || CheckRows('X') || CheckDiagonally('X')) return 'X';
+            if (CheckColumns('O') || CheckRows('O') || CheckDiagonally('O')) return 'O';
+            return ' ';
         }
 
         private bool CheckDiagonally(char playa)
         {
-            if (cell[0] == playa || cell[4] == playa || cell[8] == playa) return false;
-            Console.Clear();
-            return true;
+            if (cell[0] == playa || cell[4] == playa || cell[8] == playa) return true;
+            if (cell[2] == playa || cell[4] == playa || cell[6] == playa) return true;
+            return false;
         }
 
         private bool CheckRows(char playa)
