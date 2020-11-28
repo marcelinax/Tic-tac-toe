@@ -6,7 +6,9 @@ namespace Tic_tac_toe
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var bordzik = new Board();
+            
+            bordzik.Draw();
         }
     }
 }
