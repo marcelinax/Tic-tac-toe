@@ -1,9 +1,10 @@
-﻿using static Tic_tac_toe.Board;
+﻿using System;
 
 namespace Tic_tac_toe
 {
     public class Game
     {
+        Board board = new Board();
         public Game(Player player1, Player player2)
         {
            
@@ -19,9 +20,18 @@ namespace Tic_tac_toe
             otherPlayer = tempPlayer;
         }
 
+        private Player CheckPlayerByMark(char sign)
+        {
+            if (activePlayer.mark.ToString().Equals(sign.ToString()))
+            {
+                return activePlayer;
+            }
+
+            return otherPlayer;
+        }
         public void CheckWinner()
         {
-            Board.CheckForWin();
+
         }
     }
 } 

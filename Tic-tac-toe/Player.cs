@@ -11,7 +11,7 @@ namespace Tic_tac_toe
             mark = playerMark;
         }
         
-        private Mark mark;
+        public Mark mark;
         private string nickName;
 
         public string NickName
@@ -26,6 +26,12 @@ namespace Tic_tac_toe
                 else throw new ArgumentException("Name must start with a capital letter!");
             }
         }
+
+        public override string ToString()
+        {
+            return NickName;
+        }
+
         public void Move(Board board)
         {
             

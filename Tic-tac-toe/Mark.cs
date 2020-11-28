@@ -11,6 +11,11 @@ namespace Tic_tac_toe
             else throw new ArgumentException("Incorrect sign!");
         }
 
+        public override string ToString()
+        {
+            return charRepresentation.ToString();
+        }
+
         private readonly char charRepresentation;
     }
 }
